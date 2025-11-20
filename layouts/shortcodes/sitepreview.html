@@ -1,0 +1,117 @@
+<!-- layouts/shortcodes/sitepreview.html -->
+<style>
+.site-card {
+  position: relative;
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  aspect-ratio: 21 / 9;
+  min-height: 160px;
+  background-color: #222;
+  margin: 12px 0;
+}
+.site-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
+
+.site-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.15));
+  z-index: 0;
+}
+
+.site-card img {
+  cursor: inherit;
+}
+
+.site-card .top-icon {
+  position: absolute;
+  left: 12px;
+  max-width: 128px;
+  max-height: 48px;
+  width: auto;
+  height: auto;
+  z-index: 2;
+}
+
+.site-card .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  z-index: 2;
+}
+
+.site-card .side-icon {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  align-self: flex-end; 
+}
+
+.site-card .info {
+  flex: 1;
+}
+
+.site-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.site-card p {
+  margin: 4px 0 0 0;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.site-card a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+</style>
+
+{{/* read params into variables */}}
+{{ $url := .Get "url" }}
+{{ if not $url }}
+  <div class="site-card"><div class="content"><div class="info">Missing <code>url</code> parameter.</div></div></div>
+  {{- return -}}
+{{ end }}
+{{ $image := .Get "image" | default "/images/preview-fallback.png" }}
+{{ $title := .Get "title" | default "" }}
+{{ $description := .Get "description" | default "" }}
+{{ $iconTop := .Get "iconTop" | default "" }}
+{{ $iconSide := .Get "iconSide" | default "" }}
+
+<a href="{{ $url }}" target="_blank" rel="noopener noreferrer">
+  <!-- use the variable here; wrap in single quotes inside url() to be robust -->
+  <div class="site-card" style="background-image: url('{{ $image | safeURL }}');">
+    {{ with $iconTop }}
+      <img src="{{ . | safeURL }}" alt="icon" class="top-icon" data-zoomable="false">
+    {{ end }}
+
+    <div class="content">
+      {{ with $iconSide }}
+        <img src="{{ . | safeURL }}" alt="icon" class="side-icon">
+      {{ end }}
+      <div class="info">
+        <h3>{{ $title }}</h3>
+        {{ with $description }}<p>{{ . }}</p>{{ end }}
+      </div>
+    </div>
+  </div>
+</a>

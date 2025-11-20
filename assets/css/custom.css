@@ -1,0 +1,38 @@
+ /* Custom colors */
+.color-github {
+  background-color: #7d2fa1;
+  color: white;
+}
+
+.color-github:hover {
+  background-color: #7d2fa1ab;
+}
+
+.color-steam {
+  background-color: #1C48AD;
+  color: white;
+}
+
+.color-steam:hover {
+  background-color: #1c47adab;
+}
+
+.color-itch-io {
+  background-color: #ff4040;
+  color: white;
+}
+
+.color-itch-io:hover {
+  background-color: #ff4040ab;
+}
+
+.color-colab {
+  background-color: #e8710a;
+  color: white;
+}
+
+.color-colab:hover {
+  background-color: #e8710aab;
+}
+  
+  

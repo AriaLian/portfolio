@@ -2,11 +2,15 @@
 title = "Gator Valley"
 description = ""
 summary = ""
-draft = false
-featuredImage = "pa/Gator_Valley_01.png"
-tags = ["level", "gameasset"]
-categories = ["pa"]
+featuredImage = "Gator_Valley_01.png"
+tags = ["Game Level", "Last Stand"]
+categories = ["Game Assets"]
 collections = ["Party Animals"]
+draft = false
 +++
 
-![overview img](pa/Gator_Valley_01.png "This is the level overview.")
+{{< keyword >}} Level Artist {{< /keyword >}}
+
+![overview img](Gator_Valley_01.png "This is the level overview.")
+![overview img](Gator_Valley_02.png "")
+

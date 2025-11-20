@@ -29,18 +29,37 @@
 	</section>
 
 	<section class="space-y-12 w-full">
-		{{ range (.Pages.ByTitle) }}
-			<article class="project-section" id="{{ .Title | urlize }}">
-				<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">{{ .Title }}</h2>
-				{{ partial "card/half-image-grey.html" . }}
-			</article>
-		{{ end }}
-
 		{{/* Inject Games section */}}
 		{{ $games := site.GetPage "section" "games" }}
 		{{ with $games }}
 			<article class="project-section" id="games">
 				<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">Games</h2>
+				<section class="space-y-10 w-full">
+					{{ range .Pages }}
+						{{ partial "card/half-image-grey.html" . }}
+					{{ end }}
+				</section>
+			</article>
+		{{ end }}
+
+		{{/* Inject Exercises section */}}
+		{{ $exercises := site.GetPage "section" "projects/exercises" }}
+		{{ with $exercises }}
+			<article class="project-section" id="exercises">
+				<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">Exercises</h2>
+				<section class="space-y-10 w-full">
+					{{ range .Pages }}
+						{{ partial "card/half-image-grey.html" . }}
+					{{ end }}
+				</section>
+			</article>
+		{{ end }}
+
+		{{/* Inject AI section */}}
+		{{ $ai := site.GetPage "section" "projects/ai" }}
+		{{ with $ai }}
+			<article class="project-section" id="ai">
+				<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">Artificial Intelligence & Machine Learning</h2>
 				<section class="space-y-10 w-full">
 					{{ range .Pages }}
 						{{ partial "card/half-image-grey.html" . }}

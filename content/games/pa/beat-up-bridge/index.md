@@ -3,11 +3,14 @@ title = "Beat-Up Bridge"
 description = ""
 summary = ""
 draft = false
-featuredImage = "pa/Beat-Up_Bridge_00.jpg"
-tags = ["level", "gameasset"]
-categories = ["pa"]
+featuredImage = "Beat-Up_Bridge_01.png"
+tags = ["Game Level", "Last Stand"]
+categories = ["Game Assets"]
 collections = ["Party Animals"]
 +++
 
+{{< keyword >}} Level Artist {{< /keyword >}}
 
-![overview img](pa/Beat-Up_Bridge_01.png "This is the level overview.")
+![overview img](Beat-Up_Bridge_01.png "This is the level overview.")
+
+![overview img](Beat-Up_Bridge_02.png "")

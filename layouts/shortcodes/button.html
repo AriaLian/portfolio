@@ -1,9 +1,10 @@
 {{ $size := .Get "size" | default "md" }}
 {{ $extra := .Get "class" | default "" }}
+{{ $color := .Get "color" | default "" }}
 {{ $base := "!rounded-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 !text-neutral !no-underline mt-4 mb-4 inline-block" }}
 {{ $sizeCls := cond (eq $size "sm") "px-3 py-1.5 mt-4 mb-4 text-sm" (cond (eq $size "lg") "px-6 py-3 mt-6 mb-6 text-lg" "px-4 py-2") }}
 <a
-  class="{{ $base }} {{ $sizeCls }} {{ $extra }}"
+  class="{{ $base }} {{ $sizeCls }} {{ $color }} {{ $extra }}"
   {{ with .Get "href" }}href="{{ . }}"{{ end }}
   {{ with .Get "target" }}target="{{ . }}"{{ end }}
   {{ with .Get "rel" }}rel="{{ . }}"{{ end }}

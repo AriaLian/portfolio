@@ -1,0 +1,23 @@
+{{ $name := .Get "name" | default "my-clip.mp4" }}
+{{ $mp4 := .Page.Resources.GetMatch (printf "%s" $name) }}
+{{ if not $mp4 }}
+  {{/* Fallback: check static path */}}
+  <video controls preload="metadata" style="width:100%;height:auto;">
+    <source src="{{ printf "/videos/%s" $name }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+{{ else }}
+  {{ $poster := .Page.Resources.Match (printf "%s-poster.*" (strings.TrimSuffix $name (path.Ext $name))) }}
+  <video controls preload="metadata" {{ if $poster }}poster="{{ $poster.RelPermalink }}"{{ end }} style="width:100%;height:auto;">
+    <source src="{{ $mp4.RelPermalink }}" type="video/mp4">
+    {{/* optionally add webm if present */}}
+    {{ with .Page.Resources.Match (print (strings.TrimSuffix $name (path.Ext $name)) ".webm") }}
+      <source src="{{ .RelPermalink }}" type="video/webm">
+    {{ end }}
+    {{ with .Get "captions" }}
+      {{ $track := .Page.Resources.GetMatch . }}
+      {{ if $track }}<track kind="captions" src="{{ $track.RelPermalink }}" srclang="en" label="English">{{ end }}
+    {{ end }}
+    Your browser does not support the video tag.
+  </video>
+{{ end }}

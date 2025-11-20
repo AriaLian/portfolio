@@ -5,5 +5,6 @@ draft = false
 showRelatedContent = false
 +++
 
-Thanks for visiting! You can reach me via the social links in the header, or send a message using the form below.
+Thanks for visiting! You can reach me via the social links, or send a message using the form below.
 
+{{< contact-form >}}

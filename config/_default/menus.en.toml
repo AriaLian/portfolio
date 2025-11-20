@@ -18,30 +18,30 @@
 [[main]]
   name = "About Me"
   pageRef = "about"
-  weight = 2
+  weight = 3
 
 [[main]]
   name = "Projects"
   pageRef = "projects"
-  weight = 3
+  weight = 2
 
-[[main]]
-  name = "Games"
-  parent = "Projects"
-  pageRef = "games"
-  weight = 4
-
-[[main]]
-  name = "AI & ML"
-  parent = "Projects"
-  pageRef = "ai"
-  weight = 6
-
-[[main]]
-  name = "Exercises"
-  parent = "Projects"
-  pageRef = "exercises"
-  weight = 5
+#[[main]]
+#  name = "Games"
+#  parent = "Projects"
+#  pageRef = "games"
+#  weight = 4
+#
+#[[main]]
+#  name = "AI & ML"
+#  parent = "Projects"
+#  pageRef = "ai"
+#  weight = 6
+#
+#[[main]]
+#  name = "Exercises"
+#  parent = "Projects"
+#  pageRef = "exercises"
+#  weight = 5
 
 [[main]]
   name = "Contact"

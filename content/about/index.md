@@ -5,4 +5,21 @@ draft = false
 showRelatedContent = false
 +++
 
-Welcome! This is a placeholder About Me page.
+{{< typeit 
+  tag=h3
+  speed=50
+  breakLines=false
+  loop=true
+>}}
+{{< icon "wand-magic-sparkles" >}} Game Developer
+{{< icon "graduation-cap" >}} MSc Computer Science
+{{< icon "codepen" >}} 3D Artist
+{{< /typeit >}}
+
+Welcome! Below is my resume — feel free to review it, download a copy, and reach out if you'd like to collaborate.
+
+{{< gdrive id="1SneK-xbZZNQKQ729ZUaGv-TLlAfaO0as" >}}
+
+{{< button href="https://drive.usercontent.google.com/u/0/uc?id=1SneK-xbZZNQKQ729ZUaGv-TLlAfaO0as&export=download" size="lg" class="text-xl">}}
+{{< icon "download" >}} Download Resume
+{{< /button >}}
