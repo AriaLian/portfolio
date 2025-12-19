@@ -18,7 +18,7 @@ draft = false
 - Customized Unity shaders are utilized to deliver the special effects in the game.
 - The player and enemies feature multiple animations representing various behaviours and reactions. These animations provide visual cues during gameplay.
 
-{{< button href="https://github.com/aria-0829/Survivors" target="_self" >}}
+{{< button href="https://github.com/arialian/Survivors" target="_self" >}}
 {{< icon "github" >}} View on Github
 {{< /button >}}
 

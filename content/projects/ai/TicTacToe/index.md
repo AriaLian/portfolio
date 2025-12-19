@@ -6,6 +6,7 @@ featuredImage = ""
 tags = ["Q-Learning Agent"]
 categories = ["AI"]
 collections = [""]
+weight = 4
 draft = false
 +++
 

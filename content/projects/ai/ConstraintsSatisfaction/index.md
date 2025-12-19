@@ -6,6 +6,7 @@ featuredImage = "00.jpeg"
 tags = ["Logic Puzzle"]
 categories = ["AI"]
 collections = [""]
+weight = 11
 draft = false
 +++
 

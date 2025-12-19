@@ -6,6 +6,7 @@ featuredImage = ""
 tags = ["Dimensionality Reduction", "MNIST", "PCA", "LDA", "UMAP"]
 categories = ["AI"]
 collections = [""]
+weight = 8
 draft = false
 +++
 

@@ -22,7 +22,7 @@ The editor supports online data storage and retrieval from a MongoDB database.
 
 There are some relationships between the objects, so related objects can automatically update when changes to one object are made.
 
-{{< button href="https://github.com/aria-0829/WPF_Data_Editor" target="_self" >}}
+{{< button href="https://github.com/arialian/WPF_Data_Editor" target="_self" >}}
 {{< icon "github" >}} View on Github
 {{< /button >}}
 
@@ -43,7 +43,7 @@ The editor supports data storage and retrieval from the following:
 - SQLite DB
 - MongoDB
 
-{{< button href="https://github.com/aria-0829/Unity_Data_Editor" target="_self" color="#7D2FA1">}}
+{{< button href="https://github.com/arialian/Unity_Data_Editor" target="_self" color="#7D2FA1">}}
 {{< icon "github" >}} View on Github
 {{< /button >}}
 

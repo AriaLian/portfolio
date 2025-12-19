@@ -35,4 +35,28 @@
   background-color: #e8710aab;
 }
   
+/* Anchor offset for in-page section links */
+.anchor-offset {
+  scroll-margin-top: 6rem; /* ~96px for mobile/tablet */
+}
+@media (min-width: 1024px) {
+  .anchor-offset {
+    scroll-margin-top: 80px;
+  }
+}
+
+/* Bold underline below project section titles */
+.section-title {
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  height: 0.15rem;
+  width: clamp(6rem, 33%, 18rem); /* about one-third of the container, capped */
+  background-color: currentColor; /* follows the title color in light/dark */
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 9999px; /* rounded line ends */
+}
   

@@ -1,11 +1,12 @@
 +++
 title = "Family Farm Adventure"
 summary = "3D Artist (2019 - 2021)"
-draft = false
 featuredImage = "images/ad.jpg"
 tags = ["Simulation"]
 categories = ["Game"]
 collections = ["Family Farm Adventure"]
+weight = 5
+draft = false
 +++
 
 {{< keyword >}} 3D Artist {{< /keyword >}}

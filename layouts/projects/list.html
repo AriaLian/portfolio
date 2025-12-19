@@ -32,10 +32,10 @@
 		{{/* Inject Games section */}}
 		{{ $games := site.GetPage "section" "games" }}
 		{{ with $games }}
-			<article class="project-section" id="games">
-				<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">Games</h2>
+			<article class="project-section anchor-offset" id="games">
+				<h2 class="mt-12 text-3xl font-bold section-title">Games</h2>
 				<section class="space-y-10 w-full">
-					{{ range .Pages }}
+					{{ range .Pages.ByWeight }}
 						{{ partial "card/half-image-grey.html" . }}
 					{{ end }}
 				</section>
@@ -45,10 +45,10 @@
 		{{/* Inject Exercises section */}}
 		{{ $exercises := site.GetPage "section" "projects/exercises" }}
 		{{ with $exercises }}
-			<article class="project-section" id="exercises">
-				<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">Exercises</h2>
+			<article class="project-section anchor-offset" id="exercises">
+				<h2 class="mt-12 text-3xl font-bold section-title">Exercises</h2>
 				<section class="space-y-10 w-full">
-					{{ range .Pages }}
+					{{ range .Pages.ByWeight }}
 						{{ partial "card/half-image-grey.html" . }}
 					{{ end }}
 				</section>
@@ -58,10 +58,10 @@
 		{{/* Inject AI section */}}
 		{{ $ai := site.GetPage "section" "projects/ai" }}
 		{{ with $ai }}
-			<article class="project-section" id="ai">
-				<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">Artificial Intelligence & Machine Learning</h2>
+			<article class="project-section anchor-offset" id="ai">
+				<h2 class="mt-12 text-3xl font-bold section-title">Artificial Intelligence & Machine Learning</h2>
 				<section class="space-y-10 w-full">
-					{{ range .Pages }}
+					{{ range .Pages.ByWeight }}
 						{{ partial "card/half-image-grey.html" . }}
 					{{ end }}
 				</section>

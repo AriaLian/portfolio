@@ -7,6 +7,7 @@ tags = ["Arcade"]
 categories = ["Game"]
 collections = ["Party Animals"]
 layout = "halfcard-list"
+weight = 3
 draft = false
 +++
 

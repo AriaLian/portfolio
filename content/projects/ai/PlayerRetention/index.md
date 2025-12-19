@@ -6,6 +6,7 @@ featuredImage = ""
 tags = ["SVM", "Random Forests"]
 categories = ["AI"]
 collections = [""]
+weight = 3
 draft = false
 +++
 

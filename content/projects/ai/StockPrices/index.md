@@ -6,6 +6,7 @@ featuredImage = ""
 tags = ["LSTM", "GRU", "RNN"]
 categories = ["AI"]
 collections = [""]
+weight = 6
 draft = false
 +++
 

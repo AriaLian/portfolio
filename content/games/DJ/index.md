@@ -1,11 +1,12 @@
 +++
 title = "Design Journey"
 summary = "3D Artist (2019)"
-draft = false
 featuredImage = "images/dj1.webp"
 tags = ["Simulation"]
 categories = ["Game"]
 collections = ["Design Journey"]
+weight = 6
+draft = false
 +++
 
 {{< keyword >}} 3D Artist {{< /keyword >}}

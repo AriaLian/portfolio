@@ -6,6 +6,7 @@ featuredImage = ""
 tags = ["Sentiment Analysis", "NLTK", "TextBlob"]
 categories = ["AI"]
 collections = [""]
+weight = 9
 draft = false
 +++
 

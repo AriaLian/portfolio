@@ -25,23 +25,23 @@
   pageRef = "projects"
   weight = 2
 
-#[[main]]
-#  name = "Games"
-#  parent = "Projects"
-#  pageRef = "games"
-#  weight = 4
-#
-#[[main]]
-#  name = "AI & ML"
-#  parent = "Projects"
-#  pageRef = "ai"
-#  weight = 6
-#
-#[[main]]
-#  name = "Exercises"
-#  parent = "Projects"
-#  pageRef = "exercises"
-#  weight = 5
+[[main]]
+  name = "Games"
+  parent = "Projects"
+  url = "/projects/#games"
+  weight = 4
+
+[[main]]
+  name = "AI & ML"
+  parent = "Projects"
+  url = "/projects/#ai"
+  weight = 6
+
+[[main]]
+  name = "Exercises"
+  parent = "Projects"
+  url = "/projects/#exercises"
+  weight = 5
 
 [[main]]
   name = "Contact"

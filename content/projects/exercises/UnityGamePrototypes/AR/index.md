@@ -6,6 +6,7 @@ featuredImage = "TowerDefense.png"
 tags = ["Unity", "AR", "Survival"]
 categories = ["exercises"]
 collections = ["Unity Prototype"]
+weight = 2
 draft = false
 +++
 

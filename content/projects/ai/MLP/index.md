@@ -6,6 +6,7 @@ featuredImage = ""
 tags = ["MLP", "EDA", "scikit-learn"]
 categories = ["AI"]
 collections = [""]
+weight = 7
 draft = false
 +++
 

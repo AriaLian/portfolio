@@ -13,9 +13,9 @@ collections = ["C++"]
 This is a top-down Rogue-like game developed in C++ using the SDL (Simple DirectMedia Layer) library. The codebase of this game is organized into two parts: the Engine code and the Game code. 
 The Engine code follows an ECS (Entity Component System) architecture, which is completely isolated from the Game code, and can be used to create other games.
 
-{{< github repo="aria-0829/Project_02_Gauntlet" showThumbnail=false >}}
+{{< github repo="arialian/Project_02_Gauntlet" showThumbnail=false >}}
 
-{{< button href="https://github.com/aria-0829/Project_02_Gauntlet" target="_self" >}}
+{{< button href="https://github.com/arialian/Project_02_Gauntlet" target="_self" >}}
 {{< icon "github" >}} View on Github
 {{< /button >}}
 

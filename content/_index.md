@@ -14,10 +14,9 @@ When life gives you lemons, make lemonade.
 {{< /lead >}}
 
 {{% ltr %}}
-I'm a passionate Game Developer currently pursuing a Master's degree in Computer Science.
-Graduated from Game Development at Sheridan College. 
-Bachelor of Engineering in Digital Media Technology. 
-Formerly a 3D Designer with 6 years of experience in the game development industry.
+I'm a passionate Game Developer with a Master’s degree in Computer Science and a professional background in 3D game production. With over six years of industry experience, I specialize in integrating technical systems with visual pipelines across gameplay, VFX, and UI. 
+
+I’m motivated by solving complex technical challenges and building scalable, efficient solutions in collaborative environments.
 {{% /ltr %}}
 
 
@@ -111,7 +110,7 @@ Resume
 {{< icon "linkedin" >}} 
 {{< /button >}}
 
-{{< button href="https://github.com/aria-0829" size="lg" class="text-xl">}}
+{{< button href="https://github.com/arialian" size="lg" class="text-xl">}}
 {{< icon "github" >}} 
 {{< /button >}}
 

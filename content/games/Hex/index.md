@@ -1,11 +1,12 @@
 +++
 title = "Hex Chronicles: Athera"
 summary = "Project Director / Programmer / Technical Artist (2024 May - August)"
-draft = false
 featuredImage = "images/SplashImage.png"
 tags = ["Strategy", "Adventure", "Tactical", "Top-Down", "Turn-Based"]
 categories = ["Game"]
 collections = ["Hex Chronicles: Athera"]
+weight = 2
+draft = false
 +++
 
 {{< keyword >}} Project Director {{< /keyword >}}

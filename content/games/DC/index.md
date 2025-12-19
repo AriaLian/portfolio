@@ -1,11 +1,12 @@
 +++
 title = "Dungeon Company"
 summary = "UI Programmer"
-draft = false
 featuredImage = "featured.jpg"
 tags = ["Strategy", "Turn-Based", "Card Batter", "Roguelite"]
 categories = ["Game"]
 collections = ["Dungeon Company"]
+weight = 1
+draft = false
 +++
 
 {{< keyword >}} UI Programmer {{< /keyword >}}

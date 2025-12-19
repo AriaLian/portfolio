@@ -13,9 +13,9 @@ collections = ["C++"]
 This is a parallax Space Shooter game, developed in C++ using the SDL (Simple DirectMedia Layer) library. 
 In this top-down space ship shooter game, player can control a spaceship, engage in battles with enemy ships and asteroids, and strive to survive
 
-{{< github repo="aria-0829/Project_01_SpaceShooter" showThumbnail=false >}}
+{{< github repo="arialian/Project_01_SpaceShooter" showThumbnail=false >}}
 
-{{< button href="https://github.com/aria-0829/Project_01_SpaceShooter" target="_self" >}}
+{{< button href="https://github.com/arialian/Project_01_SpaceShooter" target="_self" >}}
 {{< icon "github" >}} View on Github
 {{< /button >}}
 
@@ -40,4 +40,4 @@ In this top-down space ship shooter game, player can control a spaceship, engage
 - Each game element (enemy ship, asteroid, player, etc.) has an associated data file. 
 - Data-driven design enables easy modification of textures, lives, health, damage, and other attributes without having to recompile the game.
 
-![spaceshooter](https://github.com/aria-0829/Project_01_SpaceShooter/assets/45384635/08f330c4-582e-4ebd-a1e1-79cfb292abcc)
+![spaceshooter](https://github.com/arialian/Project_01_SpaceShooter/assets/45384635/08f330c4-582e-4ebd-a1e1-79cfb292abcc)

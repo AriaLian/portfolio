@@ -7,6 +7,7 @@ featuredImage = "featured.png"
 tags = ["gameengine", "c++"]
 categories = ["exercises"]
 collections = [""]
+weight = 1
 draft = false
 +++
 

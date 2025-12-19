@@ -6,6 +6,7 @@ featuredImage = ""
 tags = ["LBP"]
 categories = ["AI"]
 collections = [""]
+weight = 5
 draft = false
 +++
 
