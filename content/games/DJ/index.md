@@ -4,7 +4,7 @@ summary = "3D Artist (2019)"
 featuredImage = "images/dj1.webp"
 tags = ["Simulation"]
 categories = ["Game"]
-collections = ["Design Journey"]
+collections = ["Mobile Game"]
 weight = 6
 draft = false
 +++

@@ -4,7 +4,7 @@ summary = "3D Artist (2017 - 2019)"
 featuredImage = "images/ad2.png"
 tags = ["Simulation"]
 categories = ["Game"]
-collections = ["Family Farm"]
+collections = ["Web Game"]
 weight = 7
 draft = false
 +++

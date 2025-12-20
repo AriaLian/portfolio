@@ -4,7 +4,7 @@ summary = "UI Programmer"
 featuredImage = "featured.jpg"
 tags = ["Strategy", "Turn-Based", "Card Batter", "Roguelite"]
 categories = ["Game"]
-collections = ["Dungeon Company"]
+collections = ["PC Game"]
 weight = 1
 draft = false
 +++

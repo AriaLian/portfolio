@@ -5,7 +5,7 @@ summary = "3D Environment Artist (2021)"
 featuredImage = "images/Build_Master_MarsVille_01.jpg"
 tags = ["Simulation"]
 categories = ["Game"]
-collections = ["Build Master: MarsVille"]
+collections = ["Mobile Game"]
 weight = 4
 draft = false
 +++

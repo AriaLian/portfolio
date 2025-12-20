@@ -4,7 +4,7 @@ summary = "3D Artist (2019 - 2021)"
 featuredImage = "images/ad.jpg"
 tags = ["Simulation"]
 categories = ["Game"]
-collections = ["Family Farm Adventure"]
+collections = ["Mobile Game"]
 weight = 5
 draft = false
 +++

@@ -66,3 +66,28 @@
   line-height: 1.75rem;
 }
   
+/* Homepage mobile tweaks */
+@media (max-width: 640px) {
+  /* Center the timeline content and prevent left overflow from negative margins */
+  ol.timeline {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 640px;
+    padding-left: 1rem; /* room for the left border */
+  }
+
+  /* Neutralize the negative margin on the timeline icon bubble */
+  ol.timeline li > .flex > div:first-child {
+    margin-left: 0 !important;
+  }
+
+  /* Bring the card a bit away from the line for readability */
+  ol.timeline li .flex-1 {
+    margin-left: 1rem !important;
+  }
+
+  /* Remove the solid gradient overlays over the homepage background image */
+  .fixed.inset-x-0.top-0.-z-10 > div.absolute {
+    opacity: 0 !important;
+  }
+}
