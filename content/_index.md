@@ -29,7 +29,7 @@ Resume
 {{< /button >}}
 
 
-{{< carousel fullWidth=true aspectRatio="21-9" images="{games/pa/home-top.webp, games/pa/gator-valley/Gator_Valley_01.png, games/pa/beat-up-bridge/Beat-Up_Bridge_01.png, games/Mars/images/Build_Master_MarsVille_00.png, games/Mars/images/Build_Master_MarsVille_03.jpg, ffa/FamilyFarmAdventure.png, games/DC/images/screenshot1.jpg, hex/SplashImage.png}" >}}
+{{< carousel fullWidth=true aspectRatio="21-9" images="{games/PA/home-top.webp, games/PA/gator-valley/Gator_Valley_01.png, games/PA/beat-up-bridge/Beat-Up_Bridge_01.png, ./games/Mars/images/Build_Master_MarsVille_00.png, games/Mars/images/Build_Master_MarsVille_03.jpg, games/FFA/images/FamilyFarmAdventure.png, games/DC/images/screenshot1.jpg, games/Hex/images/SplashImage.png}" >}}
 
 ---
 # Professional Journey
@@ -50,10 +50,10 @@ Resume
 {{< timelineItem icon="star" header="Recreate Games" badge="Sep.2021 - Aug.2023" subheader="3D Graphic Designer" >}}
 {{< sitepreview
     url="https://partyanimals.com/"
-    image="games/pa/media-image-04.jpg"
+    image="games/PA/media-image-04.jpg"
     title="Party Animals"
     description="Fight your friends as puppies, kittens and other fuzzy creatures! Paw it out with your friends remotely, or huddle together for chaotic fun on the same screen."
-    iconTop="games/pa/logo.png"
+    iconTop="games/PA/logo.png"
 >}} 
 <!-- {{% ltr %}}
 <ul>
@@ -84,8 +84,7 @@ Resume
     image="games/FFA/images/ffaimage2.jpg"
     title="Family Farm Adventure"
     description="A gorgeous farming simulator game where you can harvest crops, explore mysterious islands and start your own prosperous farmtown!"
-    iconTop="games/FFA/images/ffa-logo.png"
-    iconSide="games/FFA/images/ffa-app-icon.jpg"
+    iconTop="games/FFA/images/ffa-app-icon.jpg"
 >}} 
 
 {{< sitepreview
@@ -93,13 +92,10 @@ Resume
     image="games/FF/images/ad2.png"
     title="Family Farm"
     description="Beautiful plants, cute animals, amazing machines, fantastic buildings – more incredible – they are connected!"
-    iconTop="games/FF/images/ff-logo.png"
-    iconSide="games/FF/images/ff-app-icon.png"
+    iconTop="games/FF/images/ff-app-icon.png"
 >}} 
 
 {{< /timelineItem >}}
-
-
 
 {{< /timeline >}}
 

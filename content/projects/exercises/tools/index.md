@@ -28,10 +28,10 @@ There are some relationships between the objects, so related objects can automat
 
 ###
 {{< gallery >}}
-  <img src="wpf1.png" class="grid-w50" description="Download Database from MongoDB"/>
-  <img src="wpf2.png" class="grid-w50" description="Database Downloaded"/>
-  <img src="wpf3.png" class="grid-w50" description="Related Data Delete Warning"/>
-  <img src="wpf4.png" class="grid-w50" description="Related Data Delete Warning"/>
+  <img src="images/wpf1.png" class="grid-w50" description="Download Database from MongoDB"/>
+  <img src="images/wpf2.png" class="grid-w50" description="Database Downloaded"/>
+  <img src="images/wpf3.png" class="grid-w50" description="Related Data Delete Warning"/>
+  <img src="images/wpf4.png" class="grid-w50" description="Related Data Delete Warning"/>
 {{< /gallery >}}
 
 
@@ -47,5 +47,5 @@ The editor supports data storage and retrieval from the following:
 {{< icon "github" >}} View on Github
 {{< /button >}}
 
-![](unity1.png "Editor Windows")
-![](unity2.png "Data can be saved and downloaded from MongoDB or loaded from SQLite")
+![](images/unity1.png "Editor Windows")
+![](images/unity2.png "Data can be saved and downloaded from MongoDB or loaded from SQLite")

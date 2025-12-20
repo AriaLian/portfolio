@@ -16,9 +16,9 @@ A tale of an ambitious dungeon CEO and her loyal but hopeless monster employeesâ
 {{< /lead >}}
 
 {{< gallery >}}
-  <img src="bestgameart.png" class="grid-w33" />
-  <img src="indiepitch.png" class="grid-w33" />
-  <img src="thegrid.png" class="grid-w33" />
+  <img src="images/bestgameart.png" class="grid-w33" />
+  <img src="images/indiepitch.png" class="grid-w33" />
+  <img src="images/thegrid.png" class="grid-w33" />
 {{< /gallery >}}
 
 ## Game Overview
@@ -38,14 +38,14 @@ Release Date: TBD
 {{< /badge >}}
 
 ## Gameplay
-![](screengif1.gif "")
-![](screengif2.gif "")
-![](gameloop.png "")
+![](images/screengif1.gif "")
+![](images/screengif2.gif "")
+![](images/gameloop.png "")
 
 ## Screenshots
 {{< gallery >}}
-  <img src="screenshot4.jpg" class="grid-w50" />
-  <img src="screenshot1.jpg" class="grid-w50" />
-  <img src="screenshot2.jpg" class="grid-w50" />
-  <img src="screenshot3.jpg" class="grid-w50" />
+  <img src="images/screenshot4.jpg" class="grid-w50" />
+  <img src="images/screenshot1.jpg" class="grid-w50" />
+  <img src="images/screenshot2.jpg" class="grid-w50" />
+  <img src="images/screenshot3.jpg" class="grid-w50" />
 {{< /gallery >}}
