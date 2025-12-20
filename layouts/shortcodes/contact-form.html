@@ -1,8 +1,8 @@
-<form id="contact-form" action="https://formspree.io/f/xeovelayz" method="POST" class="w-full max-w-3xl mx-auto" novalidate>
+<form id="contact-form" action="https://formspree.io/f/xeovelay" method="POST" class="w-full max-w-3xl mx-auto" novalidate>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div>
       <label for="name" class="block text-sm font-medium mb-1">Your name</label>
-      <input id="name" name="name" required
+      <input id="name" name="name" type="text" required
              class="block w-full rounded-md border border-neutral/20 bg-transparent px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500" />
     </div>
 
@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
   form.addEventListener('submit', async function (e) {
     e.preventDefault();
     statusEl.textContent = 'Sending...';
+    
     var endpoint = form.getAttribute('action');
     try {
       var formData = new FormData(form);
@@ -56,11 +57,12 @@ document.addEventListener('DOMContentLoaded', function () {
         headers: { 'Accept': 'application/json' },
         body: formData
       });
+      const data = await resp.json();
       if (resp.ok) {
         statusEl.textContent = 'Thanks! I will get back to you shortly.';
         form.reset();
       } else {
-        statusEl.textContent = 'Something went wrong. Please try again later.';
+        statusEl.textContent = data.error || 'Something went wrong. Please try again later.';
       }
     } catch (err) {
       statusEl.textContent = 'Network error. Please try again.';
