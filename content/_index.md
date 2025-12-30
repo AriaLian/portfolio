@@ -111,10 +111,10 @@ Resume
 {{< /button >}}
 
 {{< button href="https://www.artstation.com/aria_l" size="lg" class="text-xl">}}
-{{< icon "link" >}} Artstation
+{{< icon "artstation" >}}
 {{< /button >}}
 
 {{< button href="mailto:arialian0829@gmail.com" size="lg" class="text-xl">}}
-{{< icon "envelope" >}} Email
+{{< icon "envelope" >}}
 {{< /button >}}
 

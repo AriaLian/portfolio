@@ -6,7 +6,6 @@
 # OS files
 .DS_Store
 Thumbs.db
-Icon?
 
 # IDE/editor
 .vscode/
