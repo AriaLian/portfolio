@@ -5,6 +5,3 @@ categories = ["exercises"]
 layout = "halfcard-list"
 draft = false
 +++
-
-
-This is Exercises page, not showing

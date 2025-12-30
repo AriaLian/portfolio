@@ -15,7 +15,7 @@ In this top-down space ship shooter game, player can control a spaceship, engage
 
 {{< github repo="arialian/Project_01_SpaceShooter" showThumbnail=false >}}
 
-{{< button href="https://github.com/arialian/Project_01_SpaceShooter" target="_self" >}}
+{{< button href="https://github.com/arialian/Project_01_SpaceShooter" target="_self" color="color-github" >}}
 {{< icon "github" >}} View on Github
 {{< /button >}}
 

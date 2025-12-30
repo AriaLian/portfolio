@@ -13,8 +13,8 @@ draft = false
 
 Family Farm is one of the world’s most popular, free Facebook games! More than 50 million users worldwide have planted and harvested crops, fed and raised cute animals, and created amazing farms around the world!
 
-{{< button href="https://www.centurygames.com/games/family-farm/" target="_self" >}}
-{{< icon "link" >}} Offical Site
+{{< button href="https://www.centurygames.com/games/family-farm/" target="_self" bg="#3e9c33" hover="#89b428">}}
+{{< icon "link" >}} Offical Website
 {{< /button >}}
 
 

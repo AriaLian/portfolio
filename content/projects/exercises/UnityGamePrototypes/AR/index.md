@@ -16,7 +16,7 @@ The PC player is in charge of building up defenses and piloting a mech while the
 
 Together the two must defend their settlement from waves of invading aliens while strengthening their defense systems.
 
-{{< button href="https://liafisher0710.itch.io/mini-capstone" target="_self" >}}
+{{< button href="https://liafisher0710.itch.io/mini-capstone" target="_self" color="color-itch-io" >}}
 Check out on {{< icon "itch-io" >}} itch.io
 {{< /button >}}
 

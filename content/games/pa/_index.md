@@ -12,15 +12,15 @@ draft = false
 
 ![overview img](awardsgrid.png "")
 
-{{< button href="https://store.steampowered.com/app/1260320/Party_Animals/" target="_self" >}}
+{{< button href="https://store.steampowered.com/app/1260320/Party_Animals/" target="_self" color="color-steam">}}
 {{< icon "steam" >}} View on Steam
 {{< /button >}}
 
-<iframe src="https://store.steampowered.com/widget/1260320/" frameborder="0" width="646" height="190"></iframe>
-
-{{< button href="https://partyanimals.com/" target="_self" >}}
+{{< button href="https://partyanimals.com/" target="_self" bg="#ee8a40" hover="#f8bf43" >}}
 {{< icon "link" >}} Offical Website
 {{< /button >}}
+
+<iframe src="https://store.steampowered.com/widget/1260320/" frameborder="0" width="646" height="190"></iframe>
 
 ![](Avatar.png "")
 
