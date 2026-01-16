@@ -12,11 +12,11 @@ draft = false
 
 ![overview img](awardsgrid.png "")
 
-{{< button href="https://store.steampowered.com/app/1260320/Party_Animals/" target="_self" color="color-steam">}}
+{{< button href="https://store.steampowered.com/app/1260320/Party_Animals/" target="_blank" color="color-steam">}}
 {{< icon "steam" >}} View on Steam
 {{< /button >}}
 
-{{< button href="https://partyanimals.com/" target="_self" bg="#ee8a40" hover="#f8bf43" >}}
+{{< button href="https://partyanimals.com/" target="_blank" bg="#ee8a40" hover="#f8bf43" >}}
 {{< icon "link" >}} Offical Website
 {{< /button >}}
 

@@ -11,7 +11,7 @@ draft = false
 
 ## FSM - Hide and Seek
 
-{{< button href="https://github.com/arialian/HideAndSeek" color="color-github" target="_self" >}}
+{{< button href="https://github.com/arialian/HideAndSeek" color="color-github" target="_blank" >}}
 {{< icon "github" >}} View on Github
 {{< /button >}}
 

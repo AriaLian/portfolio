@@ -15,7 +15,7 @@ The Engine code follows an ECS (Entity Component System) architecture, which is 
 
 {{< github repo="arialian/Project_02_Gauntlet" showThumbnail=false >}}
 
-{{< button href="https://github.com/arialian/Project_02_Gauntlet" target="_self" color="color-github" >}}
+{{< button href="https://github.com/arialian/Project_02_Gauntlet" target="_blank" color="color-github" >}}
 {{< icon "github" >}} View on Github
 {{< /button >}}
 

@@ -27,7 +27,7 @@ Worked as: Project Director, Programmer, and Technical Artist
 
 {{< youtubeLite id="O4Lk1SOQRI8" label="Gameplay Video" >}}
 
-{{< button href="https://maad-studio.itch.io/hex-chronicles-athera" target="_self" color="color-itch-io">}}
+{{< button href="https://maad-studio.itch.io/hex-chronicles-athera" target="_blank" color="color-itch-io">}}
 Check out on {{< icon "itch-io" >}} itch.io
 {{< /button >}}
 

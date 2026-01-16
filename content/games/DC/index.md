@@ -27,7 +27,7 @@ Take on the role of a Victorian-era Dungeon CEO. Manage resources, recruit monst
 As the newly appointed CEO of Dungeon Company, you are forced into a world where gods, adventurers, and strange entities lurk beyond the dungeon's walls. What is your mission? Keep your monster workforce alive, manage resources effectively, and earn as much gold as possible—all while striking a delicate balance between profit and danger.
 
 
-{{< button href="https://store.steampowered.com/app/3189680/Dungeon_CEO_Demo/" target="_self" color="color-steam">}}
+{{< button href="https://store.steampowered.com/app/3189680/Dungeon_CEO_Demo/" target="_blank" color="color-steam">}}
 Check out on {{< icon "steam" >}} Steam
 {{< /button >}}
 

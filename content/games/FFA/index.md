@@ -11,7 +11,7 @@ draft = false
 
 {{< keyword >}} 3D Artist {{< /keyword >}}
 
-{{< button href="https://www.centurygames.com/games/family-farm-adventure/" target="_self" bg="#cc5f29" hover="#f77e42">}}
+{{< button href="https://www.centurygames.com/games/family-farm-adventure/" target="_blank" bg="#cc5f29" hover="#f77e42">}}
 {{< icon "link" >}} Offical Website
 {{< /button >}}
 

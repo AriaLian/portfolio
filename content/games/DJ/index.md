@@ -13,7 +13,7 @@ draft = false
 
 Design Journey is a fun, relaxing game you where you show off your decorating skills. Choose furniture to match the rooms and sharpen your design sense with people around the world. You'll style living rooms, dining rooms, bedrooms, and even outdoor gardens!
 
-{{< button href="https://play.google.com/store/apps/details?id=com.ff.dreamhome" target="_self" color="color-google">}}
+{{< button href="https://play.google.com/store/apps/details?id=com.ff.dreamhome" target="_blank" color="color-google">}}
 {{< icon "link" >}} Google Play Page
 {{< /button >}}
 

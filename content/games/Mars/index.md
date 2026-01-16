@@ -12,7 +12,7 @@ draft = false
 
 {{< keyword >}} 3D Environment Artist {{< /keyword >}}
 
-{{< button href="https://store.steampowered.com/app/2366120/Build_Master_MarsVille/" target="_self" color="color-steam">}}
+{{< button href="https://store.steampowered.com/app/2366120/Build_Master_MarsVille/" target="_blank" color="color-steam">}}
 {{< icon "steam" >}} View on Steam
 {{< /button >}}
 
