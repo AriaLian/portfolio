@@ -50,6 +50,18 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+/* Vertically center icon and text */
+.shortcode-button .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+.shortcode-button .icon svg {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateY(-1px); 
+}
 
 /* Anchor offset for in-page section links */
 .anchor-offset {
