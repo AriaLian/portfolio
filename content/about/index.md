@@ -11,9 +11,9 @@ showRelatedContent = false
   breakLines=false
   loop=true
 >}}
-{{< icon "wand-magic-sparkles" >}} Game Developer
-{{< icon "graduation-cap" >}} MSc Computer Science
-{{< icon "codepen" >}} 3D Artist
+{{< icon "wand-magic-sparkles" >}} Game Developer 
+{{< icon "codepen" >}} 3D Artist 
+{{< icon "graduation-cap" >}} MSc Computer Science 
 {{< /typeit >}}
 
 Welcome! Below is my resume — feel free to review it, download a copy, and reach out if you'd like to collaborate.

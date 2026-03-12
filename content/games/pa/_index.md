@@ -12,6 +12,8 @@ draft = false
 
 ![overview img](awardsgrid.png "")
 
+<iframe src="https://store.steampowered.com/widget/1260320/" frameborder="0" width="646" height="190"></iframe>
+
 {{< button href="https://store.steampowered.com/app/1260320/Party_Animals/" target="_blank" color="color-steam">}}
 {{< icon "steam" >}} View on Steam
 {{< /button >}}
@@ -20,10 +22,17 @@ draft = false
 {{< icon "link" >}} Offical Website
 {{< /button >}}
 
-<iframe src="https://store.steampowered.com/widget/1260320/" frameborder="0" width="646" height="190"></iframe>
 
-![](Avatar.png "")
+Party Animal is a multiplayer physics-based party game that has received widespread international recognition and industry awards.
 
-I was one of the two 3D Environment Artists responsible for the level map **Beat-Up Bridge** and **Gator Valley**.
+I had been a fan of the game even before joining the development team. When the early demo was released, it quickly went viral and attracted a large global player base.
 
-I was also responsible for 3D **UI Assets**.
+During development, I worked primarily as a **3D Environment Artist**, and also supported the UI team by creating several **3D assets used in the game’s interface**.
+
+I was one of two level artists responsible for designing and building the maps **Beat-Up Bridge** and **Gator Valley**. Working on these levels was both an enjoyable and highly valuable learning experience.
+
+![](Levels.png "")
+
+You can explore detailed breakdowns of these levels and assets through the links below.
+
+![](Avatar.png "Thank You!")

@@ -1,7 +1,7 @@
 +++
 title = "Beat-Up Bridge"
 description = "Physics-driven level featuring modular destruction and rope break system."
-summary = "Last-Stand Map"
+summary = "Last-stand Map: Stay on the bridge and stay alive"
 draft = false
 featuredImage = "Beat-Up_Bridge_01.png"
 tags = ["Game Level", "Last Stand"]
@@ -22,6 +22,7 @@ weight = 1
 - **Key Challenges**: Modular design, real-time physics stability, rope break implementation, multiplayer performance optimization
 
 ![overview img](Beat-Up_Bridge_01.png "Level Overview")
+{{< pagevideo name="images/Record_2026_03_05_22_23_13_378.mp4" >}}
 
 Beat-Up Bridge is a physics-driven dynamic multiplayer "Last Stand" map in Party Animals. 
 
@@ -201,11 +202,11 @@ Optimization strategies included:
 ## Gameplay Screenshots
 
 {{< gallery >}}
-  <img src="images/Screenshot (122).png" class="grid-w33" />
-  <img src="images/Screenshot (80).png" class="grid-w33" />
-  <img src="images/Screenshot (86).png" class="grid-w33" />
-  <img src="images/Screenshot (124).png" class="grid-w33" />
-  <img src="images/Screenshot (70).png" class="grid-w33" />
-  <img src="images/Screenshot (89).png" class="grid-w33" />
+  <img src="images/Screenshot (122).png" class="grid-w50" />
+  <img src="images/Screenshot (80).png" class="grid-w50" />
+  <img src="images/Screenshot (86).png" class="grid-w50" />
+  <img src="images/Screenshot (124).png" class="grid-w50" />
+  <img src="images/Screenshot (70).png" class="grid-w50" />
+  <img src="images/Screenshot (89).png" class="grid-w50" />
 {{< /gallery >}}
 
