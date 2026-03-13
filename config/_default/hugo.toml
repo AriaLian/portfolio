@@ -52,6 +52,10 @@ enableEmoji = true
         weight = 100
 
     [[related.indices]]
+        name = "collections"
+        weight = 100
+
+    [[related.indices]]
         name = "series"
         weight = 50
 

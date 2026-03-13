@@ -10,7 +10,7 @@ draft = false
 # Tianhua "Aria" Lian -->
 
 {{< lead >}}
-When life gives you lemons, make lemonade.
+I build worlds where technology and creativity collide.
 {{< /lead >}}
 
 {{% ltr %}}
@@ -19,17 +19,19 @@ I'm a passionate Game Developer with a Master’s degree in Computer Science an
 I’m motivated by solving complex technical challenges and building scalable, efficient solutions in collaborative environments.
 {{% /ltr %}}
 
-
-{{< button href="projects" size="lg" class="text-xl">}}
+<!-- {{< button href="projects" size="lg" class="text-xl">}}
 View Projects
 {{< /button >}}
 
 {{< button href="about" size="lg" class="text-xl">}}
 Resume
+{{< /button >}} -->
+
+{{< carousel fullWidth=true aspectRatio="21-9" images="{games/pa/home-top.webp, games/pa/gator-valley/Gator_Valley_01.png, games/pa/beat-up-bridge/Beat-Up_Bridge_01.png, games/mars/images/Build_Master_MarsVille_00.png, games/mars/images/Build_Master_MarsVille_03.jpg, games/ffa/images/FamilyFarmAdventure.png, games/dc/images/screenshot1.jpg, games/hex/images/Screenshot01.png}" >}}
+
+{{< button href="projects" size="lg" class="text-xl">}}
+View Projects
 {{< /button >}}
-
-
-{{< carousel fullWidth=true aspectRatio="21-9" images="{games/pa/home-top.webp, games/pa/gator-valley/Gator_Valley_01.png, games/pa/beat-up-bridge/Beat-Up_Bridge_01.png, games/mars/images/Build_Master_MarsVille_00.png, games/mars/images/Build_Master_MarsVille_03.jpg, games/ffa/images/FamilyFarmAdventure.png, games/dc/images/screenshot1.jpg, games/hex/images/SplashImage.png}" >}}
 
 ---
 # Professional Journey
@@ -43,6 +45,15 @@ Resume
     title="Dungeon Company"
     description="A fresh twist on card-based roguelikes by flipping the script. You’re the villain that creates the dungeons for unsuspecting adventurers!"
     iconTop="games/dc/images/gamelogo.png"
+>}} 
+{{< /timelineItem >}}
+
+{{< timelineItem icon="star" header="MAAD Studios" badge="May.2024 - Aug.2024" subheader="Project Director / Programmer / Technical Artist" >}}
+{{< sitepreview
+    url="https://maad-studio.itch.io/hex-chronicles-athera"
+    image="games/hex/images/SplashImage.png"
+    title="Hex Chronicles: Athera"
+    description="The battle for Athera begins! Forge your strategy, command elemental tiles, and lead your unique heroes to victory in this dynamic turn-based board game."
 >}} 
 {{< /timelineItem >}}
 

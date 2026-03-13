@@ -39,6 +39,8 @@ Entities are created exclusively through the Scene Manager.
 Components are attached to entities, with the Transform component being a mandatory presence in every entity. Other components serve specific purposes and can be present or absent based on the desired entity's behaviour.
 A component can only exist as part of an entity. The base component class is abstract and is designed to be derived.
 
+![](SceneManager.png "Scene Manager")
+
 ### Render System
 The Render System is responsible for managing the render window and all rendering-related tasks. The Renderer class holds the Renderable components and executes the rendering process. It does not handle the Initialize/Update/Destroy lifecycle methods of the components, as those responsibilities lie with the Scene Manager class. A Renderable is an abstract class representing a component with visual elements. Components such as Sprite, AnimatedSprite, and Font are implemented as Renderables.
 
