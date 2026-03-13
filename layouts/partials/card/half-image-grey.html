@@ -36,19 +36,19 @@
 		{{ $labelURL := "" }}
 		{{ with .Params.collections }}
 			{{ $label = (index . 0) }}
-			{{ $labelURL = (print "/collections/" (urlize $label) "/") }}
+			{{ $labelURL = (print "collections/" (urlize $label) "/" | relLangURL) }}
 		{{ else }}
 			{{ with .Params.collection }}
 				{{ $label = (index . 0) }}
-				{{ $labelURL = (print "/collections/" (urlize $label) "/") }}
+				{{ $labelURL = (print "collections/" (urlize $label) "/" | relLangURL) }}
 			{{ else }}
 				{{ with .Params.categories }}
 					{{ $label = (index . 0) }}
-					{{ $labelURL = (print "/categories/" (urlize $label) "/") }}
+					{{ $labelURL = (print "categories/" (urlize $label) "/" | relLangURL) }}
 				{{ else }}
 					{{ with .Params.tags }}
 						{{ $label = (index . 0) }}
-						{{ $labelURL = (print "/tags/" (urlize $label) "/") }}
+						{{ $labelURL = (print "tags/" (urlize $label) "/" | relLangURL) }}
 					{{ end }}
 				{{ end }}
 			{{ end }}
